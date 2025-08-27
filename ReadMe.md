@@ -19,7 +19,7 @@ emotify(“Make me smile”) ➞ Make me :)
 
 emotify(“I am mad”) ➞ I am >:(
 <img width="1028" height="435" alt="image" src="https://github.com/user-attachments/assets/b6050de5-2a3b-4d6e-97d2-a9d5ede6628c" />
-[explanation]
+For this code, the defined "emotify" function is responsible for taking a sentence and converting certain words; "smile", "grin", "sad", and "mad", into emoticons. I used a dictionary to store word–emoticon pairs, which made it easy to map each word to its corresponding symbol or face. Then, I applied the for loop to go through every key–value pair in the dictionary and used the replace() function to substitute the matching word in the sentence with its emoticon. I also added replace(word.capitalize(), symbol) to the code so that it would not be case-sensitive even when small and capitalized words are used and that it will be detected and replaced correctly. Finally, the print() function was used to display the transformed sentences.
 
 ## UNPACKING LIST PROBLEM:
 Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
