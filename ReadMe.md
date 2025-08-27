@@ -24,7 +24,9 @@ emotify(“I am mad”) ➞ I am >:(
 ## UNPACKING LIST PROBLEM:
 Unpack the list writeyourcodehere into three variables, being first, middle, and last, with middle being everything in between the first and last element. Then print all three variables.
 
-Example: lst = [1, 2, 3, 4, 5, 6]
+Example: 
+
+lst = [1, 2, 3, 4, 5, 6]
 
 Output: first: 1 middle: [2,3,4,5] last: 6
 <img width="1138" height="309" alt="image" src="https://github.com/user-attachments/assets/a96903e1-843a-4cb4-a60d-2186c39d160f" />
