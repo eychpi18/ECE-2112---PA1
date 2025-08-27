@@ -7,7 +7,7 @@ alphabet_soup(“hello”) ➞ ehllo
 
 alphabet_soup(“hacker”) ➞ acehkr
 <img width="1141" height="292" alt="image" src="https://github.com/user-attachments/assets/c90a12eb-17de-4e35-b1d0-905847cbb013" />
-[explanation]
+In creating the code for the Alphabet Soup problem, I created a function [alphabet_soup] that takes a string as an input and arranges its letters alphabetically. Within the function, the sorted() function is used for the purpose of arranging the letters, while the join() function is for the purpose of combining the letters back into a single string. The print() function is then used to display the results after arranging and combining the letters back together of a given string. After testing it with example strings like “hello” and “hacker”, the results of the code came out as “ehllo” and “acehkr”, which confirmed that the code is working.
 
 ## EMOTICON PROBLEM: 
 Create a function that changes specific words into emoticons. Given a sentence as a string, replace the words smile, grin, sad and mad with their corresponding emoticon:
