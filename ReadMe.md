@@ -30,4 +30,4 @@ lst = [1, 2, 3, 4, 5, 6]
 
 Output: first: 1 middle: [2,3,4,5] last: 6
 <img width="1138" height="309" alt="image" src="https://github.com/user-attachments/assets/a96903e1-843a-4cb4-a60d-2186c39d160f" />
-[explanation]
+I broke down a list into three parts: the first item, the middle items, and the last item as follows: by putting first, *middle, last = writeyourcodehere into a string, Python will automatically put the first value into first, the last value into last, and all in between into middle with the asterisk *. Using the print() function, I then printed each variable individually, which gave output as first: 1, middle: [2, 3, 4, 5], and last: 6. This way, you can unpack a list in Python to form chunks for holding variables that you require without slicing the entire list yourself.
